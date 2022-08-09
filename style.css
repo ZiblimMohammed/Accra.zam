@@ -1,0 +1,105 @@
+body{
+    margin: auto;
+    text-shadow: gold;
+    font-weight: bold;
+}
+
+.hero{
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/accra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    text-align: center;
+}
+
+.bff-hero{
+    background-color: #5027b1;
+    color: #18fa10;
+    width: 23%;
+    margin: 0 auto 10px;
+    border-radius: 12%;
+    background-position: center;
+}
+
+#ff-hero{
+    width: 40%;
+    margin: auto ;
+    color: #1ae7a3;
+    background-color:#9b9194;
+    border-radius: 12%;
+}
+
+/* main section */
+
+.main-section{
+    padding: 0 40px;
+    background-color: #b8a49a;
+    overflow: auto;
+}
+#title{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 12px;
+   } 
+.activities{
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    float: none;
+}
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 4px;
+    
+    padding-bottom: 30px;
+    color: #000000;
+   
+}
+
+.image{
+    width: 200px;
+    border-radius: 30%;
+}
+
+ 
+/* footer section */
+#ft-img{
+    width: 130px;
+    height: 200px;
+    border-radius: 40%;
+    align-items: center;
+}
+
+.footer-sub{
+    font-style: italic;
+    color: black;
+    padding-left: 28px;
+    align-items: center;
+}
+
+.footer{
+    width: 500px;
+    margin: 20px auto 20px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-radius: 5%;
+    background-color: #9b9194;
+   
+}
